@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시맨틱 요소 - 레이아웃</title>
+
+     <!-- 폰트2 -  -->
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+     <!-- font-family: 'Nanum Pen Script', cursive; -->
+     <style>
+         * { box-sizing: border-box; margin: 0; padding: 0;}
+ 
+         body {font-family: 'Nanum Pen Script', cursive;}
+
+         header {
+             background-color: lightcyan;
+             height: 100px;
+             line-height: 100px;
+             text-align: center;
+             font-size: 20px;
+         }
+
+        nav {
+            float: left;
+            width: 20%;
+            height: 300px;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: bisque;
+            height: 300px;
+        }
+        
+        section::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        footer {
+            background-color: blueviolet;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        /* 반응형 적용 - 가로 사이즈 600px 이하*/
+        @media screen and (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        
+    </style>
+
+
+
+</head>
+    <body>
+        <h1>semantic 태그를 이용한 레이아웃</h1>
+        <header>
+            <h2>HEADER</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">menu 001</a></li>
+                    <li><a href="#">menu 002</a></li>
+                    <li><a href="#">menu 003</a></li>
+                    <li><a href="#">menu 004</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>SBS 아카데미</h1>
+                <p>
+                    청춘을 물방아 것이다.보라, 방지하는 무한한 그리하였는가? 있을 장식하는 노년에게서 얼마나 있는가? 웅대한 크고 발휘하기 있음으로써 내려온 끝까지 뭇 가슴에 말이다. 크고 위하여, 가장 위하여 것이다. 피어나기 이상의 관현악이며, 물방아 끓는다. 청춘은 무엇이 위하여 위하여, 청춘에서만 봄바람이다. 그들의 온갖 이상 것이 풍부하게 역사를 뭇 뿐이다.
+                </p>
+                <p>
+                    청춘이 있으며, 가진 따뜻한 대한 두손을 석가는 부패를 것이다. 열락의 긴지라 이상은 싶이 이것이다. 자신과 얼음이 유소년에게서 이것을 봄날의 기관과 보내는 더운지라 것이다. 보이는 지혜는 이상이 가치를 보내는 얼마나 없으면, 넣는 아니한 것이다. 것이다.보라, 품고 밥을 있는 기관과 위하여 석가는 사막이다. 되려니와, 충분히 밝은 영락과 곧 많이 운다. 이상의 하여도 장식하는 이것이다.
+                </p>
+            </article>
+
+        </section>
+
+        <footer>
+            <h2>FOOTER</h2>
+        </footer>
+
+
+
+
+
+    </body>
+</html>
