@@ -1,0 +1,43 @@
+
+.container {
+    text-align: center;
+}
+
+.inner {
+    width: 70vw;
+    min-height: 80vh;
+    margin: 0 auto;
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.inner .item {
+    display: 0;
+    margin: 0;
+    width: 25%;
+    height: 20vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.color1 { background-color: antiquewhite;}
+.color2 { background-color: aqua;}
+.color3 { background-color: firebrick;}
+.color4 { background-color: greenyellow;}
+
+.color5 { background-color: #82ccdd;}
+.color6 { background-color: #78e08f;}
+.color7 { background-color: #1e3799;}
+.color8 { background-color: #fed330;}
+
+.color9 { background-color: rgb(75, 75, 75);}
+.color10 { background-color: rgb(255, 159, 26);}
+.color11 { background-color: rgb(24, 220, 255);}
+.color12 { background-color: rgb(255, 184, 184);}
+
+.color13 { background-color: hsl(242, 100%, 65%);}
+.color14 { background-color: hsl(88, 100%, 74%);}
+.color15 { background-color: hsla(328, 100%, 66%, 1);}
+.color16 { background-color: hsla(41, 100%, 65%, 1);}
+
